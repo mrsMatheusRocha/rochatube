@@ -2,7 +2,7 @@ import config from "../../../config.json";
 import styled from "styled-components";
 
 const StyledHeader = styled.div`
-  img {
+  .userInfo img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -17,10 +17,16 @@ const StyledHeader = styled.div`
   }
 `
 
-function Header() {
+const Banner = styled.img`
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+`
+
+function Header(props) {
   return (
     <StyledHeader>
-      <img />
+      <Banner src={props.src}/>
       <section className="userInfo">
         <img src={`https://github.com/${config.github}.png`} alt="Banner"/>
         <div>
