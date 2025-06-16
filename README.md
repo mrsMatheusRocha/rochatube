@@ -10,7 +10,6 @@ Este projeto é uma plataforma inspirada no YouTube, construída inteiramente em
 - 🎥 Upload e visualização de vídeos
 - 🔎 Barra de pesquisa para encontrar vídeos rapidamente
 - 📱 Responsividade para dispositivos móveis
-- 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
